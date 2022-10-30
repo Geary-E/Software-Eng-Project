@@ -8,7 +8,7 @@ import './Header.css';
 function Header() {
     return (
         <div className="Header">
-            <h1> Employees </h1>
+            <h1> Our Team </h1>
             <img className="img1" alt="logo" src = {logo1} />
         </div>
     )

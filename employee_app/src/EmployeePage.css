@@ -1,0 +1,42 @@
+
+
+.EmployeePage {
+    height: 100%;
+    background-color: #242424;
+    color:  #ecae00;
+}
+
+.spaces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+
+.img1 {
+      margin: 25px;
+      /*float: left;*/
+      /*text-align: left;*/
+      padding: 15px; 
+      border-radius: 10%;
+      width: 800px;
+      height: 700px;
+ }
+
+ .grid1 {
+    margin: 0px;
+    padding: 25px;
+ }
+
+ /*.grid1:hover {
+    background-color: #ecae00;
+    color: #242424;
+ }*/
+
+ .grid2 {
+    margin: 0px;
+    padding: 25px;
+    background-color: #ecae00;
+    color: #242424;
+ }
+
