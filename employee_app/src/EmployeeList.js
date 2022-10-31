@@ -9,8 +9,8 @@ import doctor5 from './doctor5.jpg';
 import doctor6 from './doctor6.jpg';
 import doctor7 from './doctor7.jpg';
 import React from 'react';
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Link } from "react-router-dom";  
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link, Navigate } from "react-router-dom";  
 //import EmployeePage from './EmployeePage';
 
 
