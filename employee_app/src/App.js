@@ -3,7 +3,7 @@ import './App.css';
 import './Header.css';
 import './EmployeeList.css';
 import './Footer.css';
-import './EmployeePage.css';
+//import './EmployeePage.css';
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link, Navigate } from "react-router-dom";  
@@ -16,7 +16,7 @@ import doctor3 from './doctor3.jpg';
 import doctor4 from './doctor4.jpg';
 import doctor5 from './doctor5.jpg';
 import doctor6 from './doctor6.jpg'; 
-import EmployeePage from './EmployeePage';
+//import EmployeePage from './EmployeePage';
 
 function App() {
   return (
