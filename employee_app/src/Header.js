@@ -5,7 +5,7 @@ import React from 'react';
 import logo1 from './logo1.jpg';
 import './Header.css';
 
-function Header() {
+function Headers() {
     return (
         <div className="Header">
             <h1> Our Team </h1>
@@ -14,4 +14,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Headers

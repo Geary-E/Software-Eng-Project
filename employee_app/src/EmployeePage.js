@@ -9,6 +9,7 @@ function EmployeePage(props) {
             <div className="spaces">
                 <div className="grid1">
             <img className="img1" alt="doctor" src={props.src} />
+            <div className="bio-box">
             <h1><u> Bio</u></h1>
                             <p className="p3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -22,12 +23,13 @@ function EmployeePage(props) {
                              Ut porttitor leo a diam sollicitudin.
                              Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras.
                             </p>
+                            </div>
             </div> 
             <div className="grid2"> 
                 <br />
             <h1><u> James Thomas </u></h1><br />
             <h1><u> About Work </u></h1> <br />
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                  Nunc mi ipsum faucibus vitae aliquet nec. Gravida in fermentum et sollicitudin. 
                  Diam in arcu cursus euismod quis viverra nibh cras pulvinar. 
                  At urna condimentum mattis pellentesque id nibh tortor id. 
@@ -43,7 +45,7 @@ function EmployeePage(props) {
                  Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. 
                  Tincidunt praesent semper feugiat nibh sed pulvinar proin.</p><br />
 
-                 <p> Curabitur gravida arcu ac tortor dignissim. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. 
+                 <p className="p1"> Curabitur gravida arcu ac tortor dignissim. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. 
                     Ipsum nunc aliquet bibendum enim facilisis gravida. Eget mi proin sed libero. 
                     Pharetra pharetra massa massa ultricies mi quis. Fusce id velit ut tortor pretium viverra suspendisse. 
                     Nam at lectus urna duis convallis convallis tellus id. Vestibulum morbi blandit cursus risus.
@@ -51,7 +53,7 @@ function EmployeePage(props) {
                      Pharetra magna ac placerat vestibulum.</p> <br />
 
             <h1><u> Work Experience </u></h1> 
-            <ul>
+            <ul className="l1">
                 <li> Job 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 <li> Job 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
